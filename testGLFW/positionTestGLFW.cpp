@@ -58,6 +58,7 @@ int main(int argc, char** argv)
       // Calls back to the glfwSetKeyCallback to check if the right key is pressed
       // to prompt change of color, does so while the window is open
       double x_cursor, y_cursor;
+      //Gets cursor position
       glfwGetCursorPos(window, &x_cursor, &y_cursor);
 
       // Colors chosen based on cursor position
